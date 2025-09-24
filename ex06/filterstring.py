@@ -12,9 +12,9 @@ def look_for_words(string, size):
 def main():
     try:
         if len(sys.argv) != 3:
-            raise AssertionError("Two arguments expacted (string and integer)")
+            raise AssertionError("Two arguments expected (string and integer)")
         if not sys.argv[2].isdigit():
-            raise AssertionError("Two arguments expacted (string and integer)")
+            raise AssertionError("Two arguments expected (string and integer)")
         string = sys.argv[1]
         size = int(sys.argv[2])
         look_for_words(string, size)
