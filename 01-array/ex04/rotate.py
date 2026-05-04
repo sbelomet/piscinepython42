@@ -5,7 +5,7 @@ from load_image import ft_load
 
 
 def main() -> None:
-    """Load image, crop a 400x400 center square, rotate it, save and print info.
+    """Load image, crop 400x400 center square, rotate it, save and print info.
 
     Handles errors with clear messages instead of crashing.
     """
